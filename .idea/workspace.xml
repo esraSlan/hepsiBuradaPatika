@@ -406,20 +406,6 @@
       <change afterPath="$PROJECT_DIR$/../eCommerceProject/src/test/java/utilities/TestBase.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../eCommerceProject/src/test/java/utilities/TestBaseCross.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../eCommerceProject/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log4j.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HepsiBuradaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SepeteUrunEkleme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../healthProject/configuration.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../healthProject/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../healthProject/src/test/resources/ali vefa.png" afterDir="false" />
@@ -465,25 +451,6 @@
       <change afterPath="$PROJECT_DIR$/../healthProject/src/test/resources/features/UIFeatures/US_027.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../healthProject/src/test/resources/features/UIFeatures/US_25HastaRandevuOlusturabilmeli.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../healthProject/src/test/resources/features/UIFeatures/US_28.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatika/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatika/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatika/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatika/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatika/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatika/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatika/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatika/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatika/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatika/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatika/src/test/java/pages/HepsiBuradaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatika/src/test/java/tests/SepeteUrunEkleme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatika/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatika/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatika/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatikaa/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatikaa/src/test/java/elements/driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatikaa/src/test/java/elements/hepsiBurada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hepsiBuradaPatikaa/src/test/java/testCase.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hospitalProject/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hospitalProject/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hospitalProject/.idea/jarRepositories.xml" afterDir="false" />
@@ -1218,6 +1185,7 @@
       <change afterPath="$PROJECT_DIR$/../testNG/src/tumTestleriCalistirma.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../testNG/src/tumTestleriParalelCalistirma.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tradylinn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1225,7 +1193,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
