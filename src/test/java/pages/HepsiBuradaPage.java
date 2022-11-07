@@ -10,17 +10,19 @@ import org.testng.Assert;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
-
-import java.util.List;
 import java.util.Set;
 
 public class HepsiBuradaPage {
     public HepsiBuradaPage() {
 
 
+
           PageFactory.initElements(Driver.getDriver(),this);}
           JavascriptExecutor jse  = (JavascriptExecutor) Driver.getDriver();
           Actions actions=new Actions(Driver.getDriver());
+
+                                  //locaters//
+
           @FindBy(id="login")
           public WebElement login;
           @FindBy(xpath="//input[@id='txtUserName']")
@@ -44,18 +46,17 @@ public class HepsiBuradaPage {
     @FindBy(xpath =  "//button[@id='onetrust-accept-btn-handler']")
     public WebElement cookies;
 
-    @FindBy(xpath = "//div[@class='desktop    voltran-container   sf-moria complete']//li")
-    public List<WebElement> productsList;
-
-
     @FindBy(xpath =  "//*[text()='Mavi Çatı Yayınları Insan Ne Ile Yaşar - Tolstoy - Maviçatı Yayınları']")
     public WebElement insanNY1;
 
     @FindBy(xpath =  "//button[@class='add-to-basket button small']")
      public WebElement insanNY2addToCart;
 
-     @FindBy(xpath =  "//*[text()='BiKitapSana']")
+     @FindBy(xpath =  "//*[text()='Mavi Çatı Yayınları Insan Ne Ile Yaşar - Tolstoy - Maviçatı Yayınları'][1]")
     public WebElement sepetimInsanNY2;
+
+    @FindBy(xpath =  "//*[text()='Mavi Çatı Yayınları Insan Ne Ile Yaşar - Tolstoy - Maviçatı Yayınları'][1]")
+    public WebElement sepetimİNY1;
 
     @FindBy(id= "addToCart")
     public WebElement addToCart;
@@ -63,8 +64,17 @@ public class HepsiBuradaPage {
     @FindBy(xpath = "//*[text()='Sepete git']")
     public WebElement goToCart;
 
-    @FindBy(xpath = " //*[text()='Esra Aslan']")
+
+    @FindBy(xpath = "//*[text()='Esra Aslan']")
     public WebElement esra;
+
+    @FindBy(xpath = "//*[text()='EA']")
+    public WebElement accountEA;
+
+
+    @FindBy(xpath = " //a[@title='Çıkış yap']")
+    public WebElement logout;
+
 
 
     @FindBy(xpath = "//*[text()='Casio MTP-V002D-1BUDF Standart Erkek Kol Saati']")
@@ -81,7 +91,7 @@ public class HepsiBuradaPage {
     @FindBy(xpath = "//*[text()='Casio MTP-V002D-1BUDF Standart Erkek Kol Saati'][1]")
     public WebElement sepetimSaat1;
 
-    @FindBy(xpath = "//*[text()='Casio MTP-V002D-1BUDF Standart Erkek Kol Saati'][2]")
+    @FindBy(xpath = "//*[text()='Casio MTP-V002D-1BUDF Standart Erkek Kol Saati']")
     public WebElement sepetimSaat2;
 
 
@@ -142,15 +152,21 @@ public class HepsiBuradaPage {
     public void urunuDogrula(){
         jse.executeScript("arguments[0].click();",goToCart);
         ReusableMethods.waitFor(2);
-        String expectedText= "Mavi Çatı Yayınları Insan Ne Ile Yaşar - Tolstoy - Maviçatı Yayınları";
-        String actualText1=insanNY1.getText();
-        Assert.assertTrue(actualText1.contains(expectedText));
-         String actualText2=sepetimInsanNY2.getText();
+           String expectedText= "Mavi Çatı Yayınları Insan Ne Ile Yaşar - Tolstoy - Maviçatı Yayınları";
+          String actualText1=sepetimİNY1.getText();
+          String actualText2=sepetimInsanNY2.getText();
+          Assert.assertTrue(actualText1.contains(expectedText));
         Assert.assertTrue(actualText2.contains(expectedText));
 
 
+
     }
-    public void cıkısYap(){}
+    public void cıkısYap(){
+        ReusableMethods.waitFor(2);
+        jse.executeScript("arguments[0].click();",accountEA);
+        jse.executeScript("arguments[0].click();",logout);
+
+    }
 
 
     public void windowsKapat(){
@@ -176,15 +192,21 @@ public class HepsiBuradaPage {
         jse.executeScript("arguments[0].click();",X);
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         jse.executeScript("arguments[0].click();",saat2);
-        jse.executeScript("arguments[0].click();",goToCart);
+
 
     }
     public void secilenIkıUrrunDogrulanır(){
-        String expectedSaat="Casio";
-        String actualSaat1=saat1.getText();
-        String actualSaat2=saat1.getText();
-        Assert.assertTrue(actualSaat1.contains(expectedSaat));
-        Assert.assertTrue(actualSaat2.contains(expectedSaat));
+        jse.executeScript("arguments[0].click();",goToCart);
+        ReusableMethods.waitFor(2);
+
+        String expectedSaatStr="Casio MTP-V002D-1BUDF Standart Erkek Kol Saati";
+        String actualSaat1=sepetimSaat1.getText();
+        String actualSaat2=sepetimSaat2.getText();
+        System.out.println(actualSaat1);
+        System.out.println(actualSaat2);
+        Assert.assertTrue(actualSaat1.contains(expectedSaatStr));
+        Assert.assertTrue(actualSaat2.contains(expectedSaatStr));
+
 
     }
 

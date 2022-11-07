@@ -1185,6 +1185,9 @@
       <change afterPath="$PROJECT_DIR$/../testNG/src/tumTestleriCalistirma.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../testNG/src/tumTestleriParalelCalistirma.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tradylinn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log4j.html" beforeDir="false" afterPath="$PROJECT_DIR$/log4j.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HepsiBuradaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HepsiBuradaPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1217,6 +1220,68 @@
       <recent name="pages" />
     </key>
   </component>
+  <component name="RunManager" selected="TestNG.SepeteUrunEkleme.girisYapmadanSepeteUrunEkleme">
+    <configuration name="SepeteUrunEkleme" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hbPatikaA101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SepeteUrunEkleme" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SepeteUrunEkleme.girisYaparakSepeteUrunEkleme" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hbPatikaA101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SepeteUrunEkleme" />
+      <option name="METHOD_NAME" value="girisYaparakSepeteUrunEkleme" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SepeteUrunEkleme.girisYapmadanSepeteUrunEkleme" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hbPatikaA101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SepeteUrunEkleme" />
+      <option name="METHOD_NAME" value="girisYapmadanSepeteUrunEkleme" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SepeteUrunEkleme.girisYapmadanSepeteUrunEkleme" />
+        <item itemvalue="TestNG.SepeteUrunEkleme.girisYaparakSepeteUrunEkleme" />
+        <item itemvalue="TestNG.SepeteUrunEkleme" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1238,5 +1303,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/SepeteUrunEkleme.java</url>
+          <line>20</line>
+          <properties class="tests.SepeteUrunEkleme" method="girisYaparakSepeteUrunEkleme">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
