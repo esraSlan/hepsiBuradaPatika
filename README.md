@@ -2,7 +2,10 @@
 ## PATİKA.DEV A101 PRACTİUM
 ## FİNAL CASES: Uİ OTOMASYON
 ## LANGUAGE= JAVA
-## TOOLS: SELENİUM, TESTNG
+## TOOLS: SELENİUM, TESTNG 
+
+
+
 ## REPORT= LOG4J
 ## USED MAVEN & POM & OOP 
 
@@ -19,5 +22,6 @@
                  Kullanıcı, 'casio saat' araması yapar.
                  Seçilen saat için 2 tane farklı satıcıdan ürün seçilip sepete eklenir.
                  Seçilen ürünün doğru olarak eklendiği ‘Sepetim’ sayfasında doğrulanır."
+## MY FRAMEWORK AND LOG4J REPORT ![image](https://user-images.githubusercontent.com/101196527/200323611-c6393853-7ef8-44b8-98fb-c725b2ce713f.png)
                  
 
